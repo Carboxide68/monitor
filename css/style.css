@@ -1,0 +1,171 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(200, 200, 200);
+	font-family: Times;
+	position: absolute;
+	padding-bottom: 20vh;
+	width: 99.5vw;
+}
+
+html,body{overflow-x: hidden;}
+
+button::-moz-focus-inner, button:focus {
+	outline: none;
+	border-radius: 0px;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: black;
+	background-color: rgba(70, 70, 70, 0.5);
+	color: rgb(255, 255, 255);
+}
+
+.timespanbutton {
+
+	display: grid;
+	height: 3vw;
+
+	border-radius: 0px;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: black;
+	text-align: center;
+	font-size: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.timespanbutton:hover {
+	cursor: pointer;
+}
+
+.span {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.HeaderKoldioxid {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	align-self: center;
+	font-size: 3vw;
+	width: auto;
+}
+
+.TitleHeader {
+	border: solid px;
+	border-radius: 60px;
+	padding: 8px;
+	min-width: 25vw;
+	text-align: center;
+	background: rgba(70, 70, 70, 0.7);
+	color: rgb(230, 230, 230);
+	border-color: black;
+	text-decoration: none;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+.TextPositioner {
+	justify-content: center;
+	display: flex;
+	position: relative;
+	align-self: center;
+	font-size: 3vw;
+	width: auto;
+}
+
+.TitleHeader:hover { 
+	cursor: pointer;
+	background: rgba(70, 70, 70, 0.5);
+	color: rgb(255, 255, 255);
+}
+
+.CO2ValueDiv {
+	height: auto;
+	width: 70vw;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1.5fr; 
+	margin-top: 7vh;
+}
+
+#clicked {
+	background: rgba(40, 40, 40, 0.9);
+}
+
+#co2val {
+	display: grid;
+	grid-column: 2/3;
+	grid-row: 1/2;
+	font-size: 4vw;
+	font-family: Times;
+	text-align: left;
+	margin: 0;
+	margin-left: 2vw;
+}
+
+#CO2 {
+	display: grid;
+	grid-column: 1/2;
+	grid-row: 1/2;
+	font-size: 4vw;
+	font-family: Times;
+	text-align: right;
+	margin: 0;
+	margin-right: 2vw;
+}
+
+.legalinfo {
+	position: absolute;
+	bottom: 2px;
+	min-height: 7vh;
+	height: auto;
+	border-top: solid 3px;
+	width: 100%;
+	text-align: center;
+}
+.legalinfo p {
+	margin: auto;
+}
+
+.GraphDiv {
+	margin-top: 0.5vh;
+	height: fit-content;
+	padding-bottom: 2px;
+	width: 60vw;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid;
+	border-width: 2px;
+	border-color: rgb(230, 230, 230);
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+#bottompadder {
+	display: block;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+#graph {
+	height: 100%;
+	width: 100%;
+}
+
+@media (max-aspect-ratio: 3/2) {
+	.CO2ValueDiv {
+		margin-top: 3vh;
+	}
+}

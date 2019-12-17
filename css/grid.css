@@ -1,0 +1,57 @@
+
+.MenuContainer {
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	
+	min-height: 100px;
+	height: 15vh;
+	margin: 5px;
+	margin-top: 1vh;
+
+
+	grid-gap: 4px;
+	border: solid 4px;
+	border-radius: 5px;
+	border-color: rgb(0, 0, 0);
+	background: rgb(0, 0, 0);
+	box-sizing: border-box;
+
+}
+
+#timeSpanDiv {
+
+	display: grid;
+	grid-template-rows: 100%;
+	grid-template-columns: repeat(6, 1fr);
+
+	grid-gap: 0.2vw;
+
+	height: auto;
+	margin: 5px 0.2vw 2px 0.2vw;
+}
+
+.HeaderBox {
+
+	display: grid;
+
+	background: rgb(200, 200, 200);
+}
+
+.Koldioxid {
+	grid-column: 1/2;
+	grid-row: 1/2; 
+}
+
+.Om {
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+
+@media (max-aspect-ratio: 1/1) {
+	.MenuContainer {
+		min-height: 7vh;
+		height: 7vh;
+	}
+}

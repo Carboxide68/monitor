@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="witdh=device-width, intial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<title>Koldioxidsvärde Täby Enskilda</title>
+</head>
+<body>
+	<div class="MenuContainer">
+		<div class="HeaderBox Koldioxid">
+			<div class="TextPositioner">
+				<a class="TitleHeader" id="clicked">Koldioxidsmatningar</a>
+			</div>
+		</div>
+		<div class="TextPositioner">
+		<div class="HeaderBox Om">
+				<a class="TitleHeader" href="om.html" target="_blank">Om</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="CO2ValueDiv">
+		<p id="CO2">CO2:</p>
+		<p id="co2val">1083ppm</p>
+	</div>
+
+	<div class="GraphDiv">
+		<canvas id="graph">
+
+		</canvas>
+		<div id="timeSpanDiv">
+			<button class="timespanbutton" id="yearB" onclick="buttonClick(this)"><p class="span">1 year</p></button>
+			<button class="timespanbutton" id="monthB" onclick="buttonClick(this)"><p class="span">1 month</p></button>
+			<button class="timespanbutton" id="weekB" onclick="buttonClick(this)"><p class="span">1 week</p></button>
+			<button class="timespanbutton" id="dayB" onclick="buttonClick(this)"><p class="span">1 day</p></button>
+			<button class="timespanbutton" id="halfDB" onclick="buttonClick(this)"><p class="span">12 hours</p></button>
+			<button class="timespanbutton" id="hour2B" onclick="buttonClick(this)"><p class="span">2 hours</p></button>
+		</div>
+	</div>
+
+	<footer class="legalinfo">
+		<div id="bottompadder">
+			<p>Royal rights deserved</p>
+		</div>
+	</footer>
+	<script src="node_modules/chart.js/dist/Chart.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
