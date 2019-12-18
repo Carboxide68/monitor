@@ -11,11 +11,11 @@
 	margin-top: 1vh;
 
 
-	grid-gap: 4px;
-	border: solid 4px;
+	grid-gap: 3px;
+	border: solid 3px;
 	border-radius: 5px;
-	border-color: rgb(0, 0, 0);
-	background: rgb(0, 0, 0);
+	border-color: rgb(240, 240, 240);
+	background: rgb(240, 240, 240);
 	box-sizing: border-box;
 
 }

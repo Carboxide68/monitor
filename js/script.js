@@ -10,8 +10,8 @@ var chart = new Chart (ctx, {
             offset: true,
             label: 'ppm',
             fill: false,
-            backgroundcolor: 'rgb(255, 255, 255)',
-            borderColor: 'rgb(90, 90, 90)',
+            backgroundcolor: 'rgb(20, 20, 20)',
+            borderColor: 'rgb(220, 220, 220)',
             data: [800, 910, 850, 1140, 1200, 1280, 920, 1010, 870, 920, 1010, 1130],
             lineTension: 0
         }]
@@ -73,7 +73,7 @@ function generateChart(myData, myLabels) {
     chart = new Chart (ctx, {
         type: 'line',
 
-        responsive: true,
+        responsive: true,   
         
         data: {
             labels: myLabels,
@@ -82,7 +82,7 @@ function generateChart(myData, myLabels) {
                 label: 'ppm',
                 fill: false,
                 backgroundcolor: 'rgb(255, 255, 255)',
-                borderColor: 'rgb(150, 25, 25)',
+                borderColor: 'rgb(220, 220, 220)',
                 data: myData,
                 lineTension: 0
             }]
