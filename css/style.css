@@ -148,7 +148,7 @@ button::-moz-focus-inner, button:focus {
 	margin-right: auto;
 	border: solid;
 	border-width: 2px;
-	border-color: rgb(240, 240, 240);
+	border-color: rgb(255, 255, 255);
 	position: relative;
 	background-color: rgb(30, 100, 161);
 }
