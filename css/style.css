@@ -11,7 +11,7 @@ body {
 
 html,body{overflow-x: hidden;}
 
-button::-moz-focus-inner, button:focus {
+button::-moz-focus-inner, button:focus, button:active {
 	outline: none;
 	border-radius: 0px;
 	border-style: solid;
